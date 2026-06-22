@@ -20,7 +20,7 @@ El sistema representa la gestión básica interna del restaurante. Se encarga de
 
 ## Estructura Obligatoria del Proyecto
 El proyecto se encuentra organizado respetando estrictamente la estructura modular solicitada por el docente:
-
+```text
 restaurante_app/
 ├── modelos/
 │   ├── cliente.py
@@ -28,7 +28,7 @@ restaurante_app/
 ├── servicios/
 │   └── restaurante.py
 └── main.py
-
+` ``
 ## Responsabilidad de cada Carpeta y Archivo
 * **modelos/producto.py:** Contiene la clase `Producto`. Define sus atributos esenciales mediante el constructor `__init__()` y aplica el método especial `__str__()` para representar el objeto como texto limpio.
 * **modelos/cliente.py:** Contiene la clase `Cliente`. Define el molde de datos de los clientes con sus atributos de contacto.
